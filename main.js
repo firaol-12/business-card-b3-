@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded',()=>{
 
         const mindarThree = new window.MINDAR.IMAGE.MindARThree({
             container: document.querySelector("#container"),
-            imageTargetSrc: './assets/targets (12).mind',
+            imageTargetSrc: './assets/targets (15).mind',
             uiScanning: "#scanning",
             uiLoading: "no",
         });
@@ -114,104 +114,104 @@ document.addEventListener('DOMContentLoaded',()=>{
             cssObject.position.set(0, 0, 0);
             cssObject.quaternion.identity();
             cssObject.scale.set(1, 1, 1);    // Left column animations
-    gsap.from(".left-middle", {
-        duration: 1,
-        x: "-100%",
-        ease: "power2.out"
-    });
+    // gsap.from(".left-middle", {
+    //     duration: 1,
+    //     x: "-100%",
+    //     ease: "power2.out"
+    // });
 
-    gsap.from(".left-bottom", {
-        duration: 1,
-        y: "100%",
-        ease: "power2.out"
-    });
+    // gsap.from(".left-bottom", {
+    //     duration: 1,
+    //     y: "100%",
+    //     ease: "power2.out"
+    // });
 
-    gsap.from(".left-top", {
-        duration: 1,
-        y: "-100%",
-        ease: "power2.out"
-    });             
+    // gsap.from(".left-top", {
+    //     duration: 1,
+    //     y: "-100%",
+    //     ease: "power2.out"
+    // });             
 
-    // Middle column animations
-    gsap.from(".middle-top", {
-        duration: 1,
-        y: "100%",
-        ease: "power2.out",
-        opacity: 0,
-        delay: 0.3
-    });
+    // // Middle column animations
+    // gsap.from(".middle-top", {
+    //     duration: 1,
+    //     y: "100%",
+    //     ease: "power2.out",
+    //     opacity: 0,
+    //     delay: 0.3
+    // });
 
-    gsap.from(".middle-bottom", {
-        duration: 1,
-        y: "-100%",
-        ease: "power2.out",
-        opacity: 0,
-        delay: 0.3
-    });
+    // gsap.from(".middle-bottom", {
+    //     duration: 1,
+    //     y: "-100%",
+    //     ease: "power2.out",
+    //     opacity: 0,
+    //     delay: 0.3
+    // });
 
-    gsap.from(".middle-bottom2", {
-        duration: 1,
-        y: "-100%",
-        ease: "power2.out",
-        opacity: 0,
-        delay: 0.5
-    });
+    // gsap.from(".middle-bottom2", {
+    //     duration: 1,
+    //     y: "-100%",
+    //     ease: "power2.out",
+    //     opacity: 0,
+    //     delay: 0.5
+    // });
 
-    gsap.from(".middle-middle", {
-        duration: 0.6,
-        scale: 0,
-        opacity: 0,
-        delay: 0.2,
-        ease: "back.out(1.7)"
-    });
+    // gsap.from(".middle-middle", {
+    //     duration: 0.6,
+    //     scale: 0,
+    //     opacity: 0,
+    //     delay: 0.2,
+    //     ease: "back.out(1.7)"
+    // });
 
-    gsap.from(".sub-container", {
-        duration: 0.5,
-        scale: 0,
-        opacity: 0,
-        ease: "back.out(1.7)"
-    });
+    // gsap.from(".sub-container", {
+    //     duration: 0.5,
+    //     scale: 0,
+    //     opacity: 0,
+    //     ease: "back.out(1.7)"
+    // });
 
-    gsap.from(".button", {
-        duration: 1,
-        scale: 0,
-        opacity: 0,
-        delay: 0.8,
-        ease: "back.out(1.7)"
-    });
+    // gsap.from(".button", {
+    //     duration: 1,
+    //     scale: 0,
+    //     opacity: 0,
+    //     delay: 0.8,
+    //     ease: "back.out(1.7)"
+    // });
 
-    gsap.from(".mid-bit-icon", {
-        duration: 1,
-        scale: 0,
-        opacity: 0,
-        delay: 0.8,
-        ease: "back.out(1.7)"
-    });
+    // gsap.from(".mid-bit-icon", {
+    //     duration: 1,
+    //     scale: 0,
+    //     opacity: 0,
+    //     delay: 0.8,
+    //     ease: "back.out(1.7)"
+    // });
 
-    // Right column animations
-    gsap.from(".right-top", {
-        duration: 1.2,
-        y: "100%",
-        opacity: 0,
-        ease: "power2.out",
-        delay: 0.4
-    });
+    // // Right column animations
+    // gsap.from(".right-top", {
+    //     duration: 1.2,
+    //     y: "100%",
+    //     opacity: 0,
+    //     ease: "power2.out",
+    //     delay: 0.4
+    // });
 
-    gsap.from(".right-middle", {
-        duration: 1.1,
-        x: "-100%",
-        delay: 0.3,
-        opacity: 0,
-        ease: "power2.out"
-    });
+    // gsap.from(".right-middle", {
+    //     duration: 1.1,
+    //     x: "-100%",
+    //     delay: 0.3,
+    //     opacity: 0,
+    //     ease: "power2.out"
+    // });
 
-    gsap.from(".right-bottom", {
-        duration: 1.2,
-        y: "-100%",
-        opacity: 0,
-        delay: 0.4,
-        ease: "power2.out"
-    });
+    // gsap.from(".right-bottom", {
+    //     duration: 1.2,
+    //     y: "-100%",
+    //     opacity: 0,
+    //     delay: 0.4,
+    //     ease: "power2.out"
+    // });
             
             isFrozen = false;
             freezeBtn.style.background = "rgba(0, 0, 0, 0.7)";
@@ -301,104 +301,104 @@ document.addEventListener('DOMContentLoaded',()=>{
             }
 
                 // Left column animations
-            gsap.from(".left-middle", {
-                duration: 1,
-                x: "-100%",
-                ease: "power2.out"
-            });
+            // gsap.from(".left-middle", {
+            //     duration: 1,
+            //     x: "-100%",
+            //     ease: "power2.out"
+            // });
 
-            gsap.from(".left-bottom", {
-                duration: 1,
-                y: "100%",
-                ease: "power2.out"
-            });
+            // gsap.from(".left-bottom", {
+            //     duration: 1,
+            //     y: "100%",
+            //     ease: "power2.out"
+            // });
 
-            gsap.from(".left-top", {
-                duration: 1,
-                y: "-100%",
-                ease: "power2.out"
-            });             
+            // gsap.from(".left-top", {
+            //     duration: 1,
+            //     y: "-100%",
+            //     ease: "power2.out"
+            // });             
 
-            // Middle column animations
-            gsap.from(".middle-top", {
-                duration: 1,
-                y: "100%",
-                ease: "power2.out",
-                opacity: 0,
-                delay: 0.6
-            });
+            // // Middle column animations
+            // gsap.from(".middle-top", {
+            //     duration: 1,
+            //     y: "100%",
+            //     ease: "power2.out",
+            //     opacity: 0,
+            //     delay: 0.6
+            // });
 
-            gsap.from(".middle-bottom", {
-                duration: 1,
-                y: "-100%",
-                ease: "power2.out",
-                opacity: 0,
-                delay: 0.6
-            });
+            // gsap.from(".middle-bottom", {
+            //     duration: 1,
+            //     y: "-100%",
+            //     ease: "power2.out",
+            //     opacity: 0,
+            //     delay: 0.6
+            // });
 
-            gsap.from(".middle-bottom2", {
-                duration: 1,
-                y: "-100%",
-                ease: "power2.out",
-                opacity: 0,
-                delay: 0.6
-            });
+            // gsap.from(".middle-bottom2", {
+            //     duration: 1,
+            //     y: "-100%",
+            //     ease: "power2.out",
+            //     opacity: 0,
+            //     delay: 0.6
+            // });
 
-            gsap.from(".middle-middle", {
-                duration: 0.6,
-                scale: 0,
-                opacity: 0,
-                delay: 0.5,
-                ease: "back.out(1.7)"
-            });
+            // gsap.from(".middle-middle", {
+            //     duration: 0.6,
+            //     scale: 0,
+            //     opacity: 0,
+            //     delay: 0.5,
+            //     ease: "back.out(1.7)"
+            // });
 
-            gsap.from(".sub-container", {
-                duration: 0.5,
-                scale: 0,
-                opacity: 0,
-                ease: "back.out(1.7)"
-            });
+            // gsap.from(".sub-container", {
+            //     duration: 0.5,
+            //     scale: 0,
+            //     opacity: 0,
+            //     ease: "back.out(1.7)"
+            // });
 
-            gsap.from(".button", {
-                duration: 1,
-                scale: 0,
-                opacity: 0,
-                delay: 0.8,
-                ease: "back.out(1.7)"
-            });
+            // gsap.from(".button", {
+            //     duration: 1,
+            //     scale: 0,
+            //     opacity: 0,
+            //     delay: 0.8,
+            //     ease: "back.out(1.7)"
+            // });
 
-            gsap.from(".mid-bit-icon", {
-                duration: 1,
-                scale: 0,
-                opacity: 0,
-                delay: 0.8,
-                ease: "back.out(1.7)"
-            });
+            // gsap.from(".mid-bit-icon", {
+            //     duration: 1,
+            //     scale: 0,
+            //     opacity: 0,
+            //     delay: 0.8,
+            //     ease: "back.out(1.7)"
+            // });
 
-            // Right column animations
-            gsap.from(".right-top", {
-                duration: 1.2,
-                y: "100%",
-                opacity: 0,
-                ease: "power2.out",
-                delay: 0.6
-            });
+            // // Right column animations
+            // gsap.from(".right-top", {
+            //     duration: 1.2,
+            //     y: "100%",
+            //     opacity: 0,
+            //     ease: "power2.out",
+            //     delay: 0.6
+            // });
 
-            gsap.from(".right-middle", {
-                duration: 1.1,
-                x: "-100%",
-                delay: 0.3,
-                opacity: 0,
-                ease: "power2.out"
-            });
+            // gsap.from(".right-middle", {
+            //     duration: 1.1,
+            //     x: "-100%",
+            //     delay: 0.3,
+            //     opacity: 0,
+            //     ease: "power2.out"
+            // });
 
-            gsap.from(".right-bottom", {
-                duration: 1.2,
-                y: "-100%",
-                opacity: 0,
-                delay: 0.8,
-                ease: "power2.out"
-            });
+            // gsap.from(".right-bottom", {
+            //     duration: 1.2,
+            //     y: "-100%",
+            //     opacity: 0,
+            //     delay: 0.8,
+            //     ease: "power2.out"
+            // });
         }
 
         anchor.onTargetLost = function() {

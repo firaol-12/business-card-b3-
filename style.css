@@ -32,6 +32,7 @@ html, body {
     left: 0;
     right: 0;
     top: 0/* Reset and Base Styles */
+}
 html, body {
     position: relative;
     width: 100%;
